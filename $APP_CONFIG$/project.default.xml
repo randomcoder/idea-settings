@@ -24,7 +24,6 @@
       <component name="DaemonCodeAnalyzer">
         <disable_hints />
       </component>
-      <component name="DebuggerManager" />
       <component name="DependencyValidationManager">
         <option name="SKIP_IMPORT_STATEMENTS" value="false" />
       </component>
@@ -57,7 +56,7 @@
         <property name="MemberChooser.sorted" value="false" />
         <property name="MemberChooser.showClasses" value="true" />
         <property name="MemberChooser.copyJavadoc" value="false" />
-        <property name="options.lastSelected" value="configurable.group.null" />
+        <property name="options.lastSelected" value="settings.github" />
         <property name="options.splitter.main.proportions" value="0.3" />
         <property name="options.splitter.details.proportions" value="0.2" />
         <property name="options.searchVisible" value="true" />
@@ -141,6 +140,7 @@
         <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
         <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
         <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+        <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
       </component>
     </defaultProject>
   </component>

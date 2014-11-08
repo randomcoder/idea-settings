@@ -1,0 +1,45 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="control NUMBER_SIGN" />
+  </action>
+  <action id="FileChooser.NewFile">
+    <keyboard-shortcut first-keystroke="control alt N" second-keystroke="F" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="control alt G" second-keystroke="B" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="control alt G" second-keystroke="F" />
+  </action>
+  <action id="Git.Merge">
+    <keyboard-shortcut first-keystroke="control alt G" second-keystroke="M" />
+  </action>
+  <action id="Git.Push">
+    <keyboard-shortcut first-keystroke="control alt G" second-keystroke="S" />
+  </action>
+  <action id="IncrementWindowHeight" />
+  <action id="MethodDown" />
+  <action id="Mvc.RunTarget" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+  </action>
+  <action id="ResizeToolWindowDown" />
+  <action id="Scala.NewClass">
+    <keyboard-shortcut first-keystroke="control alt N" second-keystroke="S" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+</keymap>
