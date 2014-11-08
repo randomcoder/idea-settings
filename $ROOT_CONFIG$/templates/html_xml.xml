@@ -1,0 +1,18 @@
+<templateSet group="html/xml">
+  <template name="&lt;bscol&gt;" value="&lt;div class=&quot;col col-$colscale$&quot;&gt;&#10;  $end$&#10;&lt;/div&gt;" description="Bootstrap Column" toReformat="true" toShortenFQNames="true">
+    <variable name="colscale" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="&lt;bsrow&gt;" value="&lt;div class=&quot;row&quot;&gt;&#10;  &lt;div class=&quot;col col-$colscale$&quot;&gt;&#10;    $end$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="Bootstrap row" toReformat="true" toShortenFQNames="true">
+    <variable name="colscale" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
