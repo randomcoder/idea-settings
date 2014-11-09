@@ -189,16 +189,6 @@
     </option>
   </component>
   <component name="RecentTaskRepositories">
-    <Bitbucket repo="null" owner="null" shared="false">
-      <commitMessageFormat>{id} {summary}</commitMessageFormat>
-      <password>dff9dfc6df9bdfdedfc2dfcfdfd3dfde</password>
-      <option name="loginAnonymously" value="false" />
-      <option name="shouldFormatCommitMessage" value="false" />
-      <option name="url" value="https://api.bitbucket.org/1.0/repositories/null/null" />
-      <option name="useHttpAuthentication" value="false" />
-      <option name="useProxy" value="false" />
-      <username>randomcoder</username>
-    </Bitbucket>
     <GitHub shared="false" url="github.com">
       <commitMessageFormat>Message:
 
@@ -214,30 +204,20 @@ re #{id}</commitMessageFormat>
       <option name="user" value="" />
       <username />
     </GitHub>
-    <Bitbucket repo="coursera-stuff" owner="randomcoder" shared="false">
-      <commitMessageFormat>&lt;Message&gt;
-
-re: {id}</commitMessageFormat>
-      <password>dff9dfc6df9bdfdedfc2dfcfdfd3dfde</password>
-      <option name="loginAnonymously" value="false" />
-      <option name="shouldFormatCommitMessage" value="true" />
-      <option name="url" value="https://api.bitbucket.org/1.0/repositories/randomcoder/coursera-stuff" />
-      <option name="useHttpAuthentication" value="false" />
-      <option name="useProxy" value="false" />
-      <username>randomcoder</username>
-    </Bitbucket>
-    <Bitbucket repo="just-wilf" owner="randomcoder" shared="true">
+    <Gitlab shared="true" url="https://gitlab.com">
       <commitMessageFormat>Message:
 
-re #{id}</commitMessageFormat>
-      <password>dff9dfc6df9bdfdedfc2dfcfdfd3dfde</password>
+re #{number}</commitMessageFormat>
+      <option name="currentProject">
+        <GitlabProject id="111265" />
+      </option>
+      <password>dff8dfdbdffddf93dfe1dfdbdfcbdffedfdddfc8dfebdfeddff2dfefdfd3dfdbdff8dfc5dffddfd3</password>
       <option name="loginAnonymously" value="false" />
       <option name="shouldFormatCommitMessage" value="true" />
-      <option name="url" value="https://api.bitbucket.org/1.0/repositories/randomcoder/just-wilf" />
       <option name="useHttpAuthentication" value="false" />
       <option name="useProxy" value="false" />
-      <username>randomcoder</username>
-    </Bitbucket>
+      <username />
+    </Gitlab>
   </component>
   <component name="RefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="false" />
@@ -248,7 +228,8 @@ re #{id}</commitMessageFormat>
     <entry key="ide.firstStartup" value="false" />
   </component>
   <component name="SbtSettings">
-    <option name="jdkHome" value="" />
+    <option name="jdkHome" value="1.7" />
+    <option name="useCustomJdk" value="true" />
   </component>
   <component name="SelectProjectTemplateSettings">
     <option name="EXPERT_MODE" value="true" />
